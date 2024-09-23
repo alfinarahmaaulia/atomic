@@ -1,0 +1,26 @@
+.Skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 42px;
+  gap: 42px;
+  width: 394.67px;
+  min-width: 320px;
+  height: 429px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Skills-card-icon {
+  width: 124px;
+  height: 124px;
+}
+
+/* Hover Effect */
+.Skills-card:hover {
+  z-index: 10; 
+  transform: scale(1.05); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}

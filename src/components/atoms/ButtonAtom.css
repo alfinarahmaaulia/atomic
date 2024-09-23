@@ -1,0 +1,30 @@
+.Button-atom {
+  padding: 15px 30px;
+  background: #2D2D2D;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUpButton 1s ease-out forwards 0.8s;
+}
+
+.Button-atom:hover {
+  background-color: #555555;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+@keyframes fadeInUpButton {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,16 @@
+.font-epilogue {
+  font-family: 'Epilogue';
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+/* Color */
+.color-dark {
+  color: #2D2D2D;
+}

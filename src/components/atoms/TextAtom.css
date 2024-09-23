@@ -1,0 +1,25 @@
+.Branding {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #2D2D2D;
+}
+
+.Visual-Designer {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  font-size: 68px;
+  color: #2D2D2D;
+}
+
+.Description {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2D2D2D;
+}
+
+.Branding:hover {
+  color: #555555;
+  transition: color 0.3s ease;
+}
